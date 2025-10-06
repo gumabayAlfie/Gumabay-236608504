@@ -12,6 +12,9 @@
 $a = 10;
 $b = 5;
 
+echo "First variable: <span>{$a}</span><br>";
+echo "Second variable: <span>{$b}</span><br>";
+
 $sum = $a + $b;
 $difference = $a - $b;
 $product = $a * $b;

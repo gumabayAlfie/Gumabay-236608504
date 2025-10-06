@@ -11,9 +11,13 @@
 <?php
 $length = 8;
 $width = 4;
+echo "Lenght: <span>{$lenght}</span><br>";
+echo "Witdth: <span>{$width}</span><br>";
+
 $area = $length * $width;
 $perimeter = 2 * ($length + $width);
 echo "Area: $area, Perimeter: $perimeter";
 ?>
+
 </body>
 </html>

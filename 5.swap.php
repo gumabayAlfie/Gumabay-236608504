@@ -13,13 +13,13 @@
 $val1 = "Mango";
 $val2 = "Banana";
 
-echo "Before swap: \$val1 = <span class='result'>$val1</span>, \$val2 = <span class='result'>$val2</span><br>";
+echo "Before swap: value A = <span>$val1</span>, value B = <span>$val2</span><br>";
 
 $temp = $val1;
 $val1 = $val2;
 $val2 = $temp;
 
-echo "After swap: \$val1 = <span class='result'>$val1</span>, \$val2 = <span class='result'>$val2</span><br>";
+echo "After swap: value A = <span>$val1</span>, value B = <span>$val2</span><br>";
 ?>
 
 </body>
