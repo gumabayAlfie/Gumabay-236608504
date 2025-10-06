@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #E0B0FF; 
+            background-color: #ccffff; 
             display: flex;
             justify-content: center;
             align-items: center;
@@ -15,7 +15,7 @@
             margin: 0;
         }
         .card {
-            background:rgb(170, 255, 254);
+            background: #00ccff;
             padding: 30px;
             border-radius: 12px;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -23,7 +23,7 @@
             width: 400px;
         }
         h1 {
-            color:rgb(13, 173, 160); 
+            color: #004747; 
             margin-bottom: 20px;
         }
         ul {
@@ -36,14 +36,14 @@
         a {
             display: block;
             padding: 10px;
-            background: #9370DB; 
+            background: #008e8e; 
             color: #f5f5dc;
             text-decoration: none;
             border-radius: 6px;
             transition: 0.3s;
         }
         a:hover {
-            background: #6A0DAD; 
+            background: #004747; 
         }
     </style>
 </head>
@@ -51,10 +51,10 @@
     <div class="card">
         <h1>Alfie Viannie Gumabay</h1>
         <ul>
-            <li><a href="intro.php">1. Introduce Yourself</a></li>
+            <li><a href="introduction.php">1. Introduce Yourself</a></li>
             <li><a href="simple_math.php">2. Simple Math</a></li>
             <li><a href="rectangle.php">3. Area and Perimeter of a Rectangle</a></li>
-            <li><a href="temp_converter.php">4. Temperature Converter</a></li>
+            <li><a href="temperature.php">4. Temperature Converter</a></li>
             <li><a href="swap_var.php">5. Swapping Variable</a></li>
             <li><a href="salary_calc.php">6. Salary Calculator</a></li>
             <li><a href="bmi_calc.php">7. BMI Calculator</a></li>
