@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ccffff; 
+            background-color: #00ffff; 
             display: flex;
             justify-content: center;
             align-items: center;
