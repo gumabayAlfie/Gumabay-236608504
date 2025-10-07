@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="card">
+<div class="card">
         <h1>Temperature Converter</h1>
 
         <?php
@@ -16,5 +17,6 @@ echo "Temperature in Celsius: <span class='result'>{$celsius}°C</span><br>";
 echo "Temperature in Fahrenheit: <span class='result'>{$fahrenheit}°F</span><br>";
 ?>
 
+</div>
 </body>
 </html>

@@ -3,49 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Php Exercise</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #00ffff; 
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .card {
-            background: #00ccff;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            text-align: center;
-            width: 400px;
-        }
-        h1 {
-            color: #004747; 
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        a {
-            display: block;
-            padding: 10px;
-            background: #008e8e; 
-            color: #f5f5dc;
-            text-decoration: none;
-            border-radius: 6px;
-            transition: 0.3s;
-        }
-        a:hover {
-            background: #004747; 
-        }
-    </style>
+
 </head>
 <body>
     <div class="card">
